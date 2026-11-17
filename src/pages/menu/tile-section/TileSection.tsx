@@ -22,7 +22,7 @@ interface TileSectionProps {
  */
 const TileSection: React.FC<TileSectionProps> = ({ closeMenu, isOpen }) => {
   return (
-    <motion.div className="lg:w-1/2 h-3/5 lg:h-full flex flex-wrap">
+    <motion.div className="w-full lg:w-1/2 h-[70vh] min-h-[26rem] lg:min-h-0 lg:h-full shrink-0 flex flex-wrap">
       <MenuTile
         direction="bottom"
         title="Works"

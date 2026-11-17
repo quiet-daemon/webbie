@@ -86,11 +86,6 @@ const MyApp = ({ Component, pageProps }: AppProps): React.JSX.Element => {
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
         strategy="afterInteractive"
       />
-      <Script
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4629230722874075"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
       <Script id="ga-init" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];

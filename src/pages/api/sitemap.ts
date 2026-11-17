@@ -13,7 +13,9 @@ export default async (
 ): Promise<void> => {
   try {
     const smStream = new SitemapStream({
-      hostname: process.env.NEXT_PUBLIC_FRONT_END_DOMAIN
+      hostname:
+        process.env.NEXT_PUBLIC_FRONT_END_DOMAIN ||
+        `https://${req.headers.host}`
     });
 
     smStream.write({
@@ -34,6 +36,16 @@ export default async (
     smStream.write({
       url: `/nuggets`,
       changefreq: 'daily'
+    });
+
+    smStream.write({
+      url: `/privacy`,
+      changefreq: 'yearly'
+    });
+
+    smStream.write({
+      url: `/contact`,
+      changefreq: 'yearly'
     });
 
     // List of posts.

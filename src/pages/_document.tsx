@@ -8,6 +8,12 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          {/* AdSense: must be in the server-rendered HTML so Google can verify the site. */}
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2060714502209042"
+            crossOrigin="anonymous"
+          />
           <meta name="application-name" content="About KK" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta

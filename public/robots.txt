@@ -1,6 +1,6 @@
-Sitemap: https://krishnakishore.tk/api/sitemap
+Sitemap: https://krishnakishore.co.in/sitemap.xml
 
 User-agent: *
-Allow: /*
+Allow: /
 
-Disallow: /api/*
+Disallow: /api/

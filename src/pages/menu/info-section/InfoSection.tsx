@@ -67,7 +67,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({ isOpen }) => {
 
   return (
     <motion.div
-      className="lg:w-1/2 h-2/5 lg:h-full flex flex-col justify-center items-center bg-dark-shade px-4"
+      className="w-full lg:w-1/2 h-auto lg:h-full shrink-0 flex flex-col justify-center items-center bg-dark-shade px-4 py-8 lg:py-0"
       variants={sectionVariants}
       initial={false}>
       <motion.div variants={variants} initial={false}>
