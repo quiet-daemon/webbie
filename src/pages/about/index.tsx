@@ -113,8 +113,18 @@ const AboutPage: React.FC<React.PropsWithChildren> = () => {
           <SkillsSection
             theme="secondary"
             title="Cloud"
-            spells={['AZURE', 'Oracle']}
-            wands={['AWS', 'GCP']}
+            spells={['AZURE']}
+            wands={['AWS']}
+          />
+          <SkillsSection
+            title="AI"
+            spells={[
+              'LLM Integration',
+              'Prompt Engineering',
+              'Chatbots & RAG',
+              'AI Automation'
+            ]}
+            wands={['Azure OpenAI', 'OpenAI & Claude APIs', 'AI Agents']}
           />
           <SkillsSection
             title="Frame works"
@@ -151,8 +161,8 @@ const AboutPage: React.FC<React.PropsWithChildren> = () => {
           />
           <SkillsSection
             title="Data Engineering"
-            spells={['Cloudera', 'Spark']}
-            wands={['Scala', 'Hadoop']}
+            spells={['Microsoft Fabric', 'Azure Synapse']}
+            wands={['Azure Databricks', 'Spark']}
           />
         </PageBody>
       </Page>
