@@ -32,7 +32,7 @@ const SocialIcons: React.FC<{ className: string }> = ({ className }) => {
         aria-label="View my profile on Github"
         target="_blank"
         rel="noreferrer"
-        href="https://github.com/itskrsna"
+        href="https://github.com/quiet-daemon"
         className={`${className} text-secondary hover:text-secondary-tint`}
         onClick={() => onClick('Github')}>
         <IconGithub />

@@ -17,7 +17,7 @@ const lines = [
   },
   {
     cmd: 'cat stack.txt',
-    out: '.net · python · node · react · flutter · azure'
+    out: '.net · python · node · react · flutter · azure · ai'
   },
   {
     cmd: 'ls ~/sections',
