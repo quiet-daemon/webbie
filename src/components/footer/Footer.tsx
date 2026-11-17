@@ -58,6 +58,24 @@ const Footer: React.FC<React.PropsWithChildren> = () => (
                   Nuggets
                 </TrackLink>
               </li>
+              <li className="my-2">
+                <TrackLink
+                  href="/privacy"
+                  label="Footer"
+                  value="privacy"
+                  className="ul-hover-effect">
+                  Privacy
+                </TrackLink>
+              </li>
+              <li className="my-2">
+                <TrackLink
+                  href="/contact"
+                  label="Footer"
+                  value="contact"
+                  className="ul-hover-effect">
+                  Contact
+                </TrackLink>
+              </li>
             </ul>
           </section>
           <section className="ml-16 md:ml-24">

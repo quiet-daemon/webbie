@@ -55,7 +55,7 @@ const AboutPage: React.FC<React.PropsWithChildren> = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={`${process.env.NEXT_PUBLIC_FRONT_END_DOMAIN}/about}`}
+          content={`${process.env.NEXT_PUBLIC_FRONT_END_DOMAIN}/about`}
         />
 
         <meta name="twitter:title" content="About - Get to know me" />
@@ -158,7 +158,7 @@ const AboutPage: React.FC<React.PropsWithChildren> = () => {
       </Page>
       <style jsx>{`
         .canvas-container {
-          height: calc(100vw - 80px);
+          height: calc(75vw - 20px);
         }
 
         @media screen and (min-width: 769px) {

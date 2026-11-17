@@ -91,7 +91,7 @@ const Terminal: React.FC<TerminalProps> = ({
         <span className="term-dot" style={{ background: '#27c93f' }} />
         <span className="ml-3 text-xs text-secondary-text">{title}</span>
       </div>
-      <div className="p-4 md:p-6 leading-relaxed min-h-64">
+      <div className="p-4 md:p-6 leading-relaxed min-h-56 md:min-h-64">
         {lines.map((line, i) => {
           if (i > lineIdx) return null;
           const typing = i === lineIdx;

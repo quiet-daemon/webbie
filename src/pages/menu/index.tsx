@@ -24,7 +24,7 @@ const Menu: React.FC<React.PropsWithChildren> = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={`${process.env.NEXT_PUBLIC_FRONT_END_DOMAIN}}`}
+          content={`${process.env.NEXT_PUBLIC_FRONT_END_DOMAIN}`}
         />
 
         <meta
@@ -45,7 +45,7 @@ const Menu: React.FC<React.PropsWithChildren> = () => {
         <meta name="author" content="Tummala Krishna Kishore" />
       </Head>
       <motion.nav
-        className="fixed top-0 left-0 w-screen h-screen bg-dark flex flex-col lg:flex-row flex-wrap z-20 shadow-md"
+        className="fixed top-0 left-0 w-screen h-dvh overflow-y-auto lg:overflow-hidden bg-dark flex flex-col lg:flex-row lg:flex-wrap z-20 shadow-md"
         variants={navVariants}
         initial={'closed'}
         animate={isMenuOpen ? 'open' : 'closed'}>

@@ -103,7 +103,7 @@ const WorksPage: React.FC<React.PropsWithChildren> = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={`${process.env.NEXT_PUBLIC_FRONT_END_DOMAIN}/works}`}
+          content={`${process.env.NEXT_PUBLIC_FRONT_END_DOMAIN}/works`}
         />
 
         <meta name="twitter:title" content="Works - Things I've done." />
